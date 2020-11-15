@@ -4,15 +4,20 @@
   "description": "A note-taking app built with Next.js",
   "main": "index.js",
   "scripts": {
-  "dev": "next",
-  "build": "next build",
-  "start": "next start"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "Baheya Khalifa",
   "license": "ISC",
   "dependencies": {
+    "@theme-ui/presets": "^0.3.0",
+    "dotenv-load": "^2.0.0",
     "next": "^10.0.1",
+    "next-connect": "^0.9.1",
+    "next-env": "^1.1.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "theme-ui": "^0.3.3"
   }
 }
